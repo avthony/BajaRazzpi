@@ -21,4 +21,4 @@ speed_label.config(text=f"{speed_mph:.1f} mph")
 root.after(200, update_speed) #update every .2 seconds
 
 update_speed()
-root.mainloop
+root.mainloop()
