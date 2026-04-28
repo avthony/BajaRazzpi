@@ -1,7 +1,7 @@
-import gps
+import gpsd
 import time
 
-session = gps.gps(mode=gps.WATCH_ENABLE)
+session = gpsd.gps(mode=gpsd.WATCH_ENABLE)
 
 while True:
     report = session.next()
